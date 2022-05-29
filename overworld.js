@@ -16,10 +16,10 @@ class Overworld {
         const y = 3;
 
 
-        const shadow = new Image();
-        shadow.onload = () => {
+        const waterShadow = new Image();
+        waterShadow.onload = () => {
          this.ctx.drawImage(
-           shadow, 
+           waterShadow, 
            0, //left cut 
            0, //top cut,
            32, //width of cut
@@ -30,7 +30,7 @@ class Overworld {
            32
         )
         }
-        shadow.src = "/images/characters/shadow.png";
+        waterShadow.src = "/images/characters/waterShadow.png";
      
 
         const hero = new Image();
