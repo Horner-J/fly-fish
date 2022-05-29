@@ -48,7 +48,7 @@ class Overworld {
            )  
         }
 
-        hero.src = "/images/characters/people/hero.png";
+        hero.src = "/images/characters/people/fishHero.png";
     }
 
 
